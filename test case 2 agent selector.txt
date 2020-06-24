@@ -1,0 +1,53 @@
+total number of agents=2
+Input the following for Agent Number 1 ...
+is_available(True/False):False
+time needed by agent to be free(seconds)1
+roles(separated by comma)=sales finance
+
+
+Input the following for Agent Number 2 ...
+is_available(True/False):true
+Invalid value.please type either True or False
+is_available(True/False):True
+available since(seconds):3
+roles(separated by comma)=finance
+
+
+AGENTS CREATED...
+
+Agent no 1=['False', -1, ['sales', 'finance']]
+Agent no 2=['True', 3, ['finance']]
+
+
+input number of issues:2
+input the following for issue number 1
+issue roles(separated by comma)=sales
+input agent selection mode
+1:All available
+2:least busy
+3:random
+enter 1,2 or 3:1
+time needed by agent to complete this issue(seconds)2
+
+
+input the following for issue number 2
+issue roles(separated by comma)=sales
+input agent selection mode
+1:All available
+2:least busy
+3:random
+enter 1,2 or 3:1
+time needed by agent to complete this issue(seconds)2
+
+
+
+ISSUES DONE
+
+No agent meet the requirements of ISSUE NO 1  or is busy in solving some other issue
+
+Agents that is used for ISSUE 2 is:
+Agent No. 1
+
+
+
+

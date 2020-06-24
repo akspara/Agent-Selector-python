@@ -1,0 +1,72 @@
+total number of agents=3
+Input the following for Agent Number 1 ...
+is_available(True/False):True
+available since(seconds):2
+roles(separated by comma)=finance,sales,robotics,machine learning
+
+
+Input the following for Agent Number 2 ...
+is_available(True/False):false
+Invalid value.please type either True or False
+is_available(True/False):False
+time needed by agent to be free(seconds)1
+roles(separated by comma)=sales,AI
+
+
+Input the following for Agent Number 3 ...
+is_available(True/False):True
+available since(seconds):2
+roles(separated by comma)=DBMS,SQL
+
+
+AGENTS CREATED...
+
+Agent no 1=['True', 2, ['sales', 'robotics', 'machine learning']]
+Agent no 2=['False', -1, ['sales', 'AI']]
+Agent no 3=['True', 2, ['DBMS', 'SQL']]
+
+
+input number of issues:3
+input the following for issue number 1
+issue roles(separated by comma)=sales
+input agent selection mode
+1:All available
+2:least busy
+3:random
+enter 1,2 or 3:1
+time needed by agent to complete this issue(seconds)2
+
+
+input the following for issue number 2
+issue roles(separated by comma)=robotics,DBMS
+input agent selection mode
+1:All available
+2:least busy
+3:random
+enter 1,2 or 3:3
+time needed by agent to complete this issue(seconds)2
+
+
+input the following for issue number 3
+issue roles(separated by comma)=sales,AI
+input agent selection mode
+1:All available
+2:least busy
+3:random
+enter 1,2 or 3:2
+time needed by agent to complete this issue(seconds)3
+
+
+
+ISSUES DONE
+
+Agents that is used for ISSUE 1 is:
+Agent No. 1
+
+
+No agent meet the requirements of ISSUE NO 2  or is busy in solving some other issue
+
+No agent meet the requirements of ISSUE NO 3  or is busy in solving some other issue
+
+
+
