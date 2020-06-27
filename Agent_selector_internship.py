@@ -123,19 +123,21 @@ def Agent_selector(agents,issues):
             
         ################################
         #changing the time
+        #print("All agents before issue",i,"are")
+        #print(agents)
         for m in range(0,len(agents)):
             if agents[m][0]=="True":
                 agents[m][1]+=1
             elif agents[m][0]=="False":
-                if agents[m][1]>1:
-                    agents[m][1]-=1
-                else:
+                if agents[m][1]==-1:
                     agents[m][0]="True"
-                    agents[m][1]=0
+                agents[m][1]+=1
+                    
             
         ###############################
-        #print("All agents after issue",i,"are")
-        #print(agents)
+        print()
+        print("All agents after issue",i,"are")
+        print(agents)
         i+=1
             
             
